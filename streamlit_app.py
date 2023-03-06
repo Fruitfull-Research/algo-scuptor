@@ -39,6 +39,7 @@ for i in range(n_img):
 
 ####
 def save_image(img, name):
+	print(name)
 	filepath = 'app_lab/' + name + '.jpg'
 	Image.open(img).save(filepath)
 	return filepath
