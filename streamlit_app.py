@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import image
 import cv2
+from PIL import Image
 
 from functools import reduce
 import plotly.express as px
